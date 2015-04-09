@@ -8,12 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		3AEA201D1AD6E4100058BC85 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AEA201C1AD6E4100058BC85 /* AppDelegate.swift */; };
-		3AEA201F1AD6E4100058BC85 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AEA201E1AD6E4100058BC85 /* FirstViewController.swift */; };
-		3AEA20211AD6E4100058BC85 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AEA20201AD6E4100058BC85 /* SecondViewController.swift */; };
+		3AEA201F1AD6E4100058BC85 /* EventListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AEA201E1AD6E4100058BC85 /* EventListViewController.swift */; };
+		3AEA20211AD6E4100058BC85 /* HowToListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AEA20201AD6E4100058BC85 /* HowToListViewController.swift */; };
 		3AEA20241AD6E4100058BC85 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AEA20221AD6E4100058BC85 /* Main.storyboard */; };
 		3AEA20261AD6E4100058BC85 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AEA20251AD6E4100058BC85 /* Images.xcassets */; };
 		3AEA20291AD6E4100058BC85 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3AEA20271AD6E4100058BC85 /* LaunchScreen.xib */; };
 		3AEA20351AD6E4100058BC85 /* Synergize_Southwest_DetroitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AEA20341AD6E4100058BC85 /* Synergize_Southwest_DetroitTests.swift */; };
+		3AEA203F1AD6E8B50058BC85 /* ResourceListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AEA203E1AD6E8B50058BC85 /* ResourceListViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,14 +31,15 @@
 		3AEA20171AD6E4100058BC85 /* Synergize Southwest Detroit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Synergize Southwest Detroit.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AEA201B1AD6E4100058BC85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3AEA201C1AD6E4100058BC85 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3AEA201E1AD6E4100058BC85 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		3AEA20201AD6E4100058BC85 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		3AEA201E1AD6E4100058BC85 /* EventListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventListViewController.swift; sourceTree = "<group>"; };
+		3AEA20201AD6E4100058BC85 /* HowToListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowToListViewController.swift; sourceTree = "<group>"; };
 		3AEA20231AD6E4100058BC85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3AEA20251AD6E4100058BC85 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		3AEA20281AD6E4100058BC85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		3AEA202E1AD6E4100058BC85 /* Synergize Southwest DetroitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Synergize Southwest DetroitTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AEA20331AD6E4100058BC85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3AEA20341AD6E4100058BC85 /* Synergize_Southwest_DetroitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Synergize_Southwest_DetroitTests.swift; sourceTree = "<group>"; };
+		3AEA203E1AD6E8B50058BC85 /* ResourceListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResourceListViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,8 +82,9 @@
 			isa = PBXGroup;
 			children = (
 				3AEA201C1AD6E4100058BC85 /* AppDelegate.swift */,
-				3AEA201E1AD6E4100058BC85 /* FirstViewController.swift */,
-				3AEA20201AD6E4100058BC85 /* SecondViewController.swift */,
+				3AEA201E1AD6E4100058BC85 /* EventListViewController.swift */,
+				3AEA20201AD6E4100058BC85 /* HowToListViewController.swift */,
+				3AEA203E1AD6E8B50058BC85 /* ResourceListViewController.swift */,
 				3AEA20221AD6E4100058BC85 /* Main.storyboard */,
 				3AEA20251AD6E4100058BC85 /* Images.xcassets */,
 				3AEA20271AD6E4100058BC85 /* LaunchScreen.xib */,
@@ -215,9 +218,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3AEA20211AD6E4100058BC85 /* SecondViewController.swift in Sources */,
+				3AEA203F1AD6E8B50058BC85 /* ResourceListViewController.swift in Sources */,
+				3AEA20211AD6E4100058BC85 /* HowToListViewController.swift in Sources */,
 				3AEA201D1AD6E4100058BC85 /* AppDelegate.swift in Sources */,
-				3AEA201F1AD6E4100058BC85 /* FirstViewController.swift in Sources */,
+				3AEA201F1AD6E4100058BC85 /* EventListViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
