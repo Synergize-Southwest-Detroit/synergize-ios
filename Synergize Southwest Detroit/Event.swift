@@ -10,8 +10,6 @@ import UIKit
 import MapKit;
 
 
-private
-
 class Event: NSObject {
     
     var title: String
@@ -31,5 +29,6 @@ class Event: NSObject {
         self.endDate = dateFormatter.dateFromString(data["end"]! as String)!
         self.address = data["address"]! as String
         self.addressName = data["display_address"]! as String;
+        self.location = CLLocation();
     }
 }

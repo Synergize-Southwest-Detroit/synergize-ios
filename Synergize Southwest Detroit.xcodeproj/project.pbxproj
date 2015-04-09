@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A81D44A1AD706FD00372D20 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A81D4491AD706FD00372D20 /* Constants.swift */; };
+		3A81D44B1AD706FD00372D20 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A81D4491AD706FD00372D20 /* Constants.swift */; };
 		3AEA201D1AD6E4100058BC85 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AEA201C1AD6E4100058BC85 /* AppDelegate.swift */; };
 		3AEA201F1AD6E4100058BC85 /* EventListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AEA201E1AD6E4100058BC85 /* EventListViewController.swift */; };
 		3AEA20211AD6E4100058BC85 /* HowToListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AEA20201AD6E4100058BC85 /* HowToListViewController.swift */; };
@@ -18,6 +20,7 @@
 		3AEA20411AD6EB0B0058BC85 /* EventTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AEA20401AD6EB0B0058BC85 /* EventTableViewCell.swift */; };
 		3AEA20441AD6EEE10058BC85 /* EventManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AEA20431AD6EEE10058BC85 /* EventManager.swift */; };
 		3AEA20461AD6F0270058BC85 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AEA20451AD6F0270058BC85 /* Event.swift */; };
+		5791B8F651BE2DA071AAD58D /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A3B7B472B9C9E24F5FCA9FB /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +34,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		32113DD6DBE807DE9C584156 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		3A81D4481AD702FE00372D20 /* BridgingHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BridgingHeader.h; sourceTree = "<group>"; };
+		3A81D4491AD706FD00372D20 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		3AEA20171AD6E4100058BC85 /* Synergize Southwest Detroit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Synergize Southwest Detroit.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AEA201B1AD6E4100058BC85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3AEA201C1AD6E4100058BC85 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -46,6 +52,8 @@
 		3AEA20401AD6EB0B0058BC85 /* EventTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventTableViewCell.swift; sourceTree = "<group>"; };
 		3AEA20431AD6EEE10058BC85 /* EventManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventManager.swift; sourceTree = "<group>"; };
 		3AEA20451AD6F0270058BC85 /* Event.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		54DCC90045F3E61802153E2F /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		9A3B7B472B9C9E24F5FCA9FB /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5791B8F651BE2DA071AAD58D /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +81,8 @@
 				3AEA20191AD6E4100058BC85 /* Synergize Southwest Detroit */,
 				3AEA20311AD6E4100058BC85 /* Synergize Southwest DetroitTests */,
 				3AEA20181AD6E4100058BC85 /* Products */,
+				B31963B59E0E46C4093F1FAA /* Pods */,
+				FD423C7DA68A1263DD7B9A53 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -87,9 +98,11 @@
 		3AEA20191AD6E4100058BC85 /* Synergize Southwest Detroit */ = {
 			isa = PBXGroup;
 			children = (
+				3A81D4491AD706FD00372D20 /* Constants.swift */,
 				3AEA201C1AD6E4100058BC85 /* AppDelegate.swift */,
 				3AEA20421AD6EB110058BC85 /* Events */,
 				3AEA20201AD6E4100058BC85 /* HowToListViewController.swift */,
+				3A81D4481AD702FE00372D20 /* BridgingHeader.h */,
 				3AEA203E1AD6E8B50058BC85 /* ResourceListViewController.swift */,
 				3AEA20221AD6E4100058BC85 /* Main.storyboard */,
 				3AEA20251AD6E4100058BC85 /* Images.xcassets */,
@@ -135,6 +148,23 @@
 			name = Events;
 			sourceTree = "<group>";
 		};
+		B31963B59E0E46C4093F1FAA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				54DCC90045F3E61802153E2F /* Pods.debug.xcconfig */,
+				32113DD6DBE807DE9C584156 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FD423C7DA68A1263DD7B9A53 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9A3B7B472B9C9E24F5FCA9FB /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -142,9 +172,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3AEA20381AD6E4100058BC85 /* Build configuration list for PBXNativeTarget "Synergize Southwest Detroit" */;
 			buildPhases = (
+				97B6B4C171BFDDEE81DA20C6 /* Check Pods Manifest.lock */,
 				3AEA20131AD6E4100058BC85 /* Sources */,
 				3AEA20141AD6E4100058BC85 /* Frameworks */,
 				3AEA20151AD6E4100058BC85 /* Resources */,
+				B5921841A87A9FC5F76545E6 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -230,6 +262,39 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		97B6B4C171BFDDEE81DA20C6 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B5921841A87A9FC5F76545E6 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3AEA20131AD6E4100058BC85 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -242,6 +307,7 @@
 				3AEA20411AD6EB0B0058BC85 /* EventTableViewCell.swift in Sources */,
 				3AEA20461AD6F0270058BC85 /* Event.swift in Sources */,
 				3AEA201F1AD6E4100058BC85 /* EventListViewController.swift in Sources */,
+				3A81D44A1AD706FD00372D20 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,6 +316,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3AEA20351AD6E4100058BC85 /* Synergize_Southwest_DetroitTests.swift in Sources */,
+				3A81D44B1AD706FD00372D20 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -362,23 +429,27 @@
 		};
 		3AEA20391AD6E4100058BC85 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54DCC90045F3E61802153E2F /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Synergize Southwest Detroit/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Synergize Southwest Detroit/BridgingHeader.h";
 			};
 			name = Debug;
 		};
 		3AEA203A1AD6E4100058BC85 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 32113DD6DBE807DE9C584156 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "Synergize Southwest Detroit/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Synergize Southwest Detroit/BridgingHeader.h";
 			};
 			name = Release;
 		};
@@ -435,6 +506,7 @@
 				3AEA203A1AD6E4100058BC85 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3AEA203B1AD6E4100058BC85 /* Build configuration list for PBXNativeTarget "Synergize Southwest DetroitTests" */ = {
 			isa = XCConfigurationList;
@@ -443,6 +515,7 @@
 				3AEA203D1AD6E4100058BC85 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -9,5 +9,8 @@
 #ifndef Synergize_Southwest_Detroit_BridgingHeader_h
 #define Synergize_Southwest_Detroit_BridgingHeader_h
 
+#import <AFNetworking/AFNetworking.h>
+#import <MBProgressHUD/MBProgressHUD.h>
+#import <Toast/UIView+Toast.h>
 
 #endif
