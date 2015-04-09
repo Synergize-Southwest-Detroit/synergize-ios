@@ -15,6 +15,7 @@
 		3AEA20291AD6E4100058BC85 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3AEA20271AD6E4100058BC85 /* LaunchScreen.xib */; };
 		3AEA20351AD6E4100058BC85 /* Synergize_Southwest_DetroitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AEA20341AD6E4100058BC85 /* Synergize_Southwest_DetroitTests.swift */; };
 		3AEA203F1AD6E8B50058BC85 /* ResourceListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AEA203E1AD6E8B50058BC85 /* ResourceListViewController.swift */; };
+		3AEA20411AD6EB0B0058BC85 /* EventTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AEA20401AD6EB0B0058BC85 /* EventTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		3AEA20331AD6E4100058BC85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3AEA20341AD6E4100058BC85 /* Synergize_Southwest_DetroitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Synergize_Southwest_DetroitTests.swift; sourceTree = "<group>"; };
 		3AEA203E1AD6E8B50058BC85 /* ResourceListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResourceListViewController.swift; sourceTree = "<group>"; };
+		3AEA20401AD6EB0B0058BC85 /* EventTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,7 +84,7 @@
 			isa = PBXGroup;
 			children = (
 				3AEA201C1AD6E4100058BC85 /* AppDelegate.swift */,
-				3AEA201E1AD6E4100058BC85 /* EventListViewController.swift */,
+				3AEA20421AD6EB110058BC85 /* New Group */,
 				3AEA20201AD6E4100058BC85 /* HowToListViewController.swift */,
 				3AEA203E1AD6E8B50058BC85 /* ResourceListViewController.swift */,
 				3AEA20221AD6E4100058BC85 /* Main.storyboard */,
@@ -116,6 +118,15 @@
 				3AEA20331AD6E4100058BC85 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3AEA20421AD6EB110058BC85 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				3AEA201E1AD6E4100058BC85 /* EventListViewController.swift */,
+				3AEA20401AD6EB0B0058BC85 /* EventTableViewCell.swift */,
+			);
+			name = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -221,6 +232,7 @@
 				3AEA203F1AD6E8B50058BC85 /* ResourceListViewController.swift in Sources */,
 				3AEA20211AD6E4100058BC85 /* HowToListViewController.swift in Sources */,
 				3AEA201D1AD6E4100058BC85 /* AppDelegate.swift in Sources */,
+				3AEA20411AD6EB0B0058BC85 /* EventTableViewCell.swift in Sources */,
 				3AEA201F1AD6E4100058BC85 /* EventListViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
