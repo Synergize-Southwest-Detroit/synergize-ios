@@ -26,6 +26,14 @@ class EventListViewController: UIViewController, UITableViewDataSource, UITableV
         var cell = tableView.dequeueReusableCellWithIdentifier("EventTableViewCell", forIndexPath: indexPath) as EventTableViewCell;
         return cell;
     }
+    
+    func numberOfSectionsInTableView(tableView: UITableView) -> Int {
+        return 1;
+    }
+    
+    func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return 10;
+    }
 
 
 }
